@@ -1,4 +1,4 @@
-__author__ = 'Danny'
+
 import math
 import euler
 import time
