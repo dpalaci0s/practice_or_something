@@ -1,4 +1,4 @@
-eulerProblems
+practice or whatever
 =============
 
-solutions for project euler problems. java and python. 
+These are just java/python practice problems. 
