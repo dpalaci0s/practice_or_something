@@ -18,8 +18,7 @@ def bubble_sort(n):
         for x in xrange(0,size-1):
             if nums[x] > nums[x+1]:
                 test_count+=1
-        if test_count < 1:
-            is_sorted=True
+        is_sorted = True
     return swap_count
 def checksum(nums):
     result = 0
