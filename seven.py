@@ -1,4 +1,3 @@
-from math import isnan
 def toInt(n):
 	d = {'I':1,'P':5,'D':10,'H':100,'C':1000,'M':10000}
 	tot = 0
@@ -25,23 +24,26 @@ def toString(n):
 	i_count = int(n%10000%1000%100%10%5)
 	if m_count >= 5:
 		print('P' + (m_count-4)*'M')
-	else: 
+	else:
 		print('M'*m_count, end="")
 	if c_count >= 5:
 		print('P' + (c_count-4)*'C',end="")
-	else: 
+	else:
 		print('C'*c_count, end="")
 	if h_count >= 5:
 		print('P' + (h_count-4)*'H',end="")
-	else: 
+	else:
 		print('H'*h_count, end="")
 	if d_count >= 5:
 		print('P' + (d_count-4)*'D',end="")
-	else: 
+	else:
 		print('D'*d_count, end="")
 	print('P'*p_count,end="")
-	print('I'*i_count,end="")
+	print('I'*i_count)
 
-toString(475)
-
-
+for i in range(0, int(input())):
+	n = input()
+	if(n.isdigit()):
+		toString(int(n))
+	else:
+		toInt(n)
