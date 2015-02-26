@@ -1,0 +1,6 @@
+4
+ D L D L 14
+ F P F D 14
+ F L L P 22
+ D P L L 20
+ 8 26 16 20
